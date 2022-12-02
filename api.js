@@ -2,7 +2,7 @@ var mongoose = require("mongoose");
 var express = require("express");
 var TaskModel = require('./task_schema');
 var router = express.Router();
-var query = "mongodb+srv://juan_user:1234@cluster0.cfspl3v.mongodb.net/taskBD?retryWrites=true&w=majority"
+var query = "mongodb+srv://Juan:1234@cluster0.cfspl3v.mongodb.net/taskBD?retryWrites=true&w=majority";
 const db = (query);
 
 mongoose.Promise = global.Promise;
